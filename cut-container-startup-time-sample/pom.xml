@@ -38,6 +38,11 @@
       <groupId>com.google.cloud</groupId>
       <artifactId>google-cloud-pubsub</artifactId>
     </dependency>
+    <dependency>
+      <groupId>io.grpc</groupId>
+      <artifactId>grpc-core</artifactId>
+      <version>1.61.1</version>
+    </dependency>
   </dependencies>
 
   <build>
