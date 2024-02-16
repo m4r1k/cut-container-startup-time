@@ -1,0 +1,5 @@
+FROM ubuntu:jammy
+
+COPY cut-container-startup-time-sample-native-image /
+
+ENTRYPOINT ["/cut-container-startup-time-sample-native-image"]

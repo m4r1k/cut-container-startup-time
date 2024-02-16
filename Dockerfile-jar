@@ -1,0 +1,5 @@
+FROM ghcr.io/graalvm/jdk-community:17.0.9
+
+COPY cut-container-startup-time-sample-1.0-jar-with-dependencies.jar /
+
+CMD java -jar /cut-container-startup-time-sample-1.0-jar-with-dependencies.jar
