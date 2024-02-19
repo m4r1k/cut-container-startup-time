@@ -1,4 +1,6 @@
-FROM ubuntu:jammy
+FROM alpine:3.19.1
+
+RUN apk add --no-cache libc6-compat
 
 COPY cut-container-startup-time-sample-native-image /
 
