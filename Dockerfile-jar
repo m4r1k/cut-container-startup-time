@@ -1,4 +1,4 @@
-FROM ghcr.io/graalvm/jdk-community:17.0.9
+FROM ghcr.io/graalvm/jdk-community:21.0.2
 
 COPY cut-container-startup-time-sample.jar /
 

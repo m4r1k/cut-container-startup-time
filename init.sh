@@ -1,6 +1,6 @@
 #!/bin/bash
 
-_GRAALVM="17.0.9-graalce"
+_GRAALVM="21.0.2-graalce"
 
 dnf upgrade -y --refresh
 dnf install -y \
